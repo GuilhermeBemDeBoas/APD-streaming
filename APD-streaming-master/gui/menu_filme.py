@@ -48,15 +48,40 @@ def menu_remover():
 
 def mostrar_menu(tipo):
     run_filme = True
-    if(tipo == 1):
-        menu = ("\n---------------\n"+
-             "(1) Adicionar novo Filme \n" +
-             "(2) Listar Filmes \n" +
-             "(3) Buscar Filme por codigo \n" +
-             "(4) Buscar Filme por genero \n" +
-             "(5) Remover Filme \n" +
-             "(0) Voltar\n"+
-            "----------------")
+    if(tipo == 2):
+
+        menu = ("\n---------------\n" +
+                "(1) Listar Filmes \n" +
+                "(2) Buscar Filme por codigo \n" +
+                "(3) Buscar Filme por genero \n" +
+                "(0) Sair\n" +
+                "----------------")
+        while (run_filme):
+            print(menu)
+            op = int(input("Digite sua escolha: "))
+
+            if (op == 1):
+                menu_listar()
+            elif (op == 2):
+                menu_buscar()
+            elif (op == 3):
+                menu_buscar_genero()
+
+            elif (op == 0):
+                run_filme = False
+
+
+
+
+    else:
+        menu = ("\n---------------\n" +
+                "(1) Adicionar novo Filme \n" +
+                "(2) Listar Filmes \n" +
+                "(3) Buscar Filme por codigo \n" +
+                "(4) Buscar Filme por genero \n" +
+                "(5) Remover Filme \n" +
+                "(0) Voltar\n" +
+                "----------------")
 
         while (run_filme):
             print(menu)
@@ -74,26 +99,3 @@ def mostrar_menu(tipo):
                 menu_remover()
             elif (op == 0):
                 run_filme = False
-
-
-    else:
-        menu = ("\n---------------\n" +
-                "(1) Listar Filmes \n" +
-                "(2) Buscar Filme por codigo \n" +
-                "(3) Buscar Filme por genero \n" +
-                "(0) Sair\n" +
-                "----------------")
-    while (run_filme):
-        print (menu)
-        op = int(input("Digite sua escolha: "))
-
-
-        if (op == 1):
-            menu_listar()
-        elif (op == 2):
-            menu_buscar()
-        elif (op == 3):
-            menu_buscar_genero()
-
-        elif (op == 0):
-            run_filme = False

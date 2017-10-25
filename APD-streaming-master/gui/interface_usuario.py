@@ -25,7 +25,7 @@ def mostrar_menu():
         if (op == 1):
             menu_usuario.mostrar_menu()
         elif (op == 2):
-            menu_filme.mostrar_menu()
+            menu_filme.mostrar_menu(tipo=1)
         elif (op == 0):
             print ("Saindo do programa...")
             run_menu = False
