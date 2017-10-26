@@ -10,11 +10,11 @@ def imprimir_usuario(usuario):
 
 def menu_adicionar():
     print ("\nAdicionar Usuário \n")
-    cpf = int(input("CPF: "))
+    cpf = str(input("CPF: "))
     nome = str(input("Nome: "))
     email = str(input("Email: "))
     senha = str(input("Senha: "))
-    tipo = int(input("Tipo de conta: "))
+    tipo = str(input("Tipo de conta: "))
     usuario.adicionar_usuario(cpf,nome,email,senha,tipo)
 
 def menu_listar():
@@ -25,7 +25,7 @@ def menu_listar():
 
 def menu_buscar():
     print("\nBuscar Usuário por CPF \n")
-    cpf = int(input("CPF: "))
+    cpf = input("CPF: ")
     u = usuario.buscar_usuario(cpf)
     if (u == None):
         print ("Usuário não encontrado")

@@ -4,13 +4,14 @@ def imprimir_filme(filme):
     print ("Titulo: ", filme[1])
     print ("Genero: ", filme[2])
     print ("Ano: ", filme[3])
+    print("Codigo: ", filme[0])
     print()
 
 def menu_adicionar():
     print ("\nAdicionar Filme \n")
     titulo = str(input("Titulo: "))
     genero = str(input("Genero: "))
-    ano = int(input("Ano: "))
+    ano = str(input("Ano: "))
     filme.adicionar_filme(titulo,genero,ano)
 
 def menu_listar():
@@ -48,7 +49,7 @@ def menu_remover():
 
 def mostrar_menu(tipo):
     run_filme = True
-    if(tipo == 2):
+    if(tipo == "2"):
 
         menu = ("\n---------------\n" +
                 "(1) Listar Filmes \n" +

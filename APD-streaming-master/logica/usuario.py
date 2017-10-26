@@ -2,6 +2,11 @@ usuarios = []
 
 def adicionar_usuario(cpf,nome,email,senha, tipo):
     usuario = [cpf,nome,email,senha, tipo]
+    print(usuario)
+    print(usuarios)
+    file = open("usuario.txt","a")
+    file.writelines("[" + cpf + ", " + nome +  ", " + email +  ", " + senha +  ", " + tipo + "]\n")
+    # iniciar_usuarios()
     usuarios.append(usuario)
 
 def listar_usuarios():
@@ -20,9 +25,14 @@ def remover_usuario(cpf):
     return False
 
 def iniciar_usuarios():
-    #### tipo 1 = admin | tipo 2 = usuario padrão ####
-    adicionar_usuario(1, "admin", "admin@admin.com", "1", 1)
-    adicionar_usuario(11111111111,"Cristiano","Cristiano@email.com","123456", 2)
-    adicionar_usuario(22222222222, "Guilherme", "Guilherme@email.com","654321", 2)
+    # usuarios = []
+    n = 0
+    file = open("usuario.txt", "r")
+    aux = file.readlines(n)
+    for h in aux:
+        usuarios.append(aux[n][1:len(aux[n]) - 2].split(", "))
+
+        n = n + 1
+    print(usuarios)
 
 
