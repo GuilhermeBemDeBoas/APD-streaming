@@ -1,7 +1,8 @@
 usuarios = []
+avaliacoes=[]
 
 def adicionar_usuario(cpf,nome,email,senha, tipo):
-    usuario = [cpf,nome,email,senha, tipo]
+    usuario = [cpf,nome,email,senha, tipo, avaliacoes]
     print(usuario)
     print(usuarios)
     file = open("usuario.txt","a")
