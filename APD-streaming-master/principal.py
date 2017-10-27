@@ -1,5 +1,5 @@
 from logica import usuario
-from logica.usuario import usuarios
+from gui import menu_usuario
 from gui import interface_usuario
 from gui import menu_filme
 from logica import filme
