@@ -10,9 +10,9 @@ def _gerar_codigo():
 
     file = open("codigo.txt", "r")
     cod = int(file.read())
-    # print(cod, "CODIGO")
+    print(cod, "CODIGO")
     cod = cod + 1
-    # print(cod)
+    print(cod)
     file.close()
     file = open("codigo.txt", "w")
     file.write(str(cod))
@@ -60,5 +60,5 @@ def iniciar_filme():
         filmes.append(aux[n][1:len(aux[n]) - 2].split(", "))
 
         n = n + 1
-    # print(filmes)
+    print(filmes)
 #     adicionar_filme("Star-Wars", "Ficção", 1977)

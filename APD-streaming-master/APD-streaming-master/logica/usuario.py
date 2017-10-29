@@ -1,9 +1,10 @@
 usuarios = []
+avaliacoes=[]
 
 def adicionar_usuario(cpf,nome,email,senha, tipo):
-    usuario = [cpf,nome,email,senha, tipo]
-    # print(usuario)
-    # print(usuarios)
+    usuario = [cpf,nome,email,senha, tipo, avaliacoes]
+    print(usuario)
+    print(usuarios)
     file = open("usuario.txt","a")
     file.writelines("[" + cpf + ", " + nome +  ", " + email +  ", " + senha +  ", " + tipo + "]\n")
     # iniciar_usuarios()
@@ -33,6 +34,6 @@ def iniciar_usuarios():
         usuarios.append(aux[n][1:len(aux[n]) - 2].split(", "))
 
         n = n + 1
-    # print(usuarios)
+    print(usuarios)
 
 

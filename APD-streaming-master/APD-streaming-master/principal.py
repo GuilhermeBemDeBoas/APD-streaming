@@ -1,11 +1,10 @@
 from logica import usuario
-from logica.usuario import usuarios
+from gui import menu_usuario
 from gui import interface_usuario
 from gui import menu_filme
 from logica import filme
-from gui import menu_usuario
 
-def login():
+def principal():
     j = True
     while j == True:
         email = input("E-mail: ")
@@ -23,23 +22,6 @@ def login():
                         menu_filme.mostrar_menu(tipo)
         if(j == True):
             print("\nUsuario ou senha incorretos.\n ")
-
-def principal():
-    a = True
-    while a == True:
-        print("(1) Login")
-        print("(2) Cadastro")
-        print("(0) Fechar o programa")
-        escolha = input("Digite a operacao desejada: ")
-
-        if (escolha == "1"):
-            login()
-        elif (escolha == "2"):
-            menu_usuario.menu_registro()
-        elif (escolha == "0"):
-            break
-        else:
-            a == True
 
 # def teste():
 #     n = 0

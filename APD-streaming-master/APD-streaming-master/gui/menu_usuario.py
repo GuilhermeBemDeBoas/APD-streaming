@@ -17,16 +17,6 @@ def menu_adicionar():
     tipo = str(input("Tipo de conta: "))
     usuario.adicionar_usuario(cpf,nome,email,senha,tipo)
 
-def menu_registro():
-    print("\nCadastro: \n")
-    cpf = str(input("CPF: "))
-    nome = str(input("Nome: "))
-    email = str(input("Email: "))
-    senha = str(input("Senha: "))
-    tipo = "2"
-    usuario.adicionar_usuario(cpf, nome, email, senha, tipo)
-    print("Cadastro Realizado com Sucesso!")
-
 def menu_listar():
     print ("\nListar Usuários\n")
     usuarios = usuario.listar_usuarios()
