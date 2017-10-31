@@ -5,6 +5,7 @@ from gui import menu_filme
 from logica import filme
 
 def principal():
+    usuarios = usuario.listar_usuarios()
     j = True
     while j == True:
         email = input("E-mail: ")

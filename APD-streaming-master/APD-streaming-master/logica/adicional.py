@@ -1,5 +1,6 @@
 from logica import filme
 from logica import usuario
+from logica import historico
 
 def avaliar_filme(cod_filme,cpf,nota):
     cod_filme = filme.buscar_filme(cod_filme)
@@ -10,4 +11,4 @@ def avaliar_filme(cod_filme,cpf,nota):
 def assistir_filme(cod_filme):
     cod_filme = filme.buscar_filme(cod_filme)
     adicional.avaliar_filme(cod_filme,cpf,nota)
-    historico.registrar_filme_assistido
+    historico.registrar_filme_assistido(cod_filme,)

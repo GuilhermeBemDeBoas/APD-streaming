@@ -20,7 +20,7 @@ def _gerar_codigo():
 
 
 def adicionar_filme(titulo, genero, ano):
-    codigo = str(_gerar_codigo())
+    codigo = int(_gerar_codigo())
     filme = [codigo, titulo, genero, ano]
     filmes.append(filme)
     file = open("filme.txt", "a")
@@ -35,7 +35,7 @@ def buscar_filme(cod_filme):
     for f in filmes:
         if (f[0] == cod_filme):
             return f
-    return None
+
 
 
 def buscar_filme_por_genero(genero):

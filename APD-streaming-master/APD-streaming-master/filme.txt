@@ -1,3 +1,4 @@
 [1, Star Wars, Ficcao, 1977]
 [2, Rogue One, Ficcao, 2016]
 [3, Tropa de Elite, Acao, 2008]
+[4, Thor: Ragnarok, Acao, 2017]

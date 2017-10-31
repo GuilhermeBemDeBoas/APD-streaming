@@ -22,7 +22,7 @@ def menu_listar():
 
 def menu_buscar():
     print("\nBuscar Filme por Codigo \n")
-    cod_filme = int(input("Codigo: "))
+    cod_filme = (input("Codigo: "))
     f = filme.buscar_filme(cod_filme)
     if (f == None):
         print ("Filme não encontrado")
@@ -40,7 +40,7 @@ def menu_buscar_genero():
         
 def menu_remover():
     print ("\nRemover Filme \n")
-    cod_filme = int(input("Codigo: "))
+    cod_filme = (input("Codigo: "))
     f = filme.remover_filme(cod_filme)
     if (f == False):
         print ("Filme não encontrado")
