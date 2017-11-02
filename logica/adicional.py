@@ -1,6 +1,6 @@
-from logica import filme
-from logica import usuario
-from logica import historico
+import filme
+import usuario
+import historico
 
 
 
@@ -43,3 +43,5 @@ def menu_avaliar():
     if nota < 1 or nota > 5:
         nota = int(input("Que nota voce da para esse filme de 1 a 5"))
     n = filme.avaliar_filme(nota)
+
+

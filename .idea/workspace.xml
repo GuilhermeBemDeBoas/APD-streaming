@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c47a9bdd-9adf-476a-a7f8-f6043c99bfa2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logica/adicional.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/codigo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/filme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/gui/interface_usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/gui/menu_filme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/gui/menu_usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/logica/adicional.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/logica/filme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/logica/historico.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/logica/usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/principal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/APD-streaming-master/usuario.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/codigo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/filme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/gui/interface_usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/gui/menu_filme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/gui/menu_usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/logica/adicional.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/logica/filme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/logica/historico.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/logica/usuario.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/principal.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/APD-streaming-master/usuario.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/adicional.py" afterPath="" />
+    <list default="true" id="f5fe9223-bcd4-474d-88c4-46d80f387ed5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/interface_usuario.py" afterPath="$PROJECT_DIR$/gui/interface_usuario.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logica/adicional.py" afterPath="$PROJECT_DIR$/logica/adicional.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logica/filme.py" afterPath="$PROJECT_DIR$/logica/filme.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logica/historico.py" afterPath="$PROJECT_DIR$/logica/historico.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logica/usuario.py" afterPath="$PROJECT_DIR$/logica/usuario.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/principal.py" afterPath="$PROJECT_DIR$/principal.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,26 +19,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="adicional.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logica/adicional.py">
+      <file leaf-file-name="principal.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/principal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="interface_usuario.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/interface_usuario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_filme.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/menu_filme.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_usuario.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/menu_usuario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-857">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filme.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logica/filme.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historico.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logica/historico.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logica/usuario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adicional.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/logica/adicional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,10 +114,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/logica/adicional.py" />
+        <option value="$PROJECT_DIR$/logica/historico.py" />
+        <option value="$PROJECT_DIR$/principal.py" />
+        <option value="$PROJECT_DIR$/gui/interface_usuario.py" />
+        <option value="$PROJECT_DIR$/logica/filme.py" />
+        <option value="$PROJECT_DIR$/logica/usuario.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -125,8 +179,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.adicional">
-    <configuration name="adicional" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.principal">
+    <configuration name="adicional" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -139,6 +193,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="APD-streaming" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logica/adicional.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="filme" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APD-streaming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logica/filme.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="historico" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APD-streaming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logica/historico.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,13 +248,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.principal" />
-      <item index="1" class="java.lang.String" itemvalue="Python.adicional" />
+    <configuration name="usuario" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logica" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="APD-streaming" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logica/usuario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.filme" />
+      <item index="1" class="java.lang.String" itemvalue="Python.historico" />
+      <item index="2" class="java.lang.String" itemvalue="Python.usuario" />
+      <item index="3" class="java.lang.String" itemvalue="Python.adicional" />
+      <item index="4" class="java.lang.String" itemvalue="Python.principal" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.principal" />
+        <item index="1" class="java.lang.String" itemvalue="Python.historico" />
+        <item index="2" class="java.lang.String" itemvalue="Python.usuario" />
+        <item index="3" class="java.lang.String" itemvalue="Python.adicional" />
+        <item index="4" class="java.lang.String" itemvalue="Python.filme" />
       </list>
     </recent_temporary>
   </component>
@@ -175,34 +287,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c47a9bdd-9adf-476a-a7f8-f6043c99bfa2" name="Default" comment="" />
-      <created>1509642833784</created>
+      <changelist id="f5fe9223-bcd4-474d-88c4-46d80f387ed5" name="Default" comment="" />
+      <created>1509645072878</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1509642833784</updated>
+      <updated>1509645072878</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -215,7 +327,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logica/usuario.py">
+    <entry file="file://$PROJECT_DIR$/usuario.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/principal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/interface_usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/menu_filme.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -223,21 +363,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/principal.py">
+    <entry file="file://$PROJECT_DIR$/gui/menu_usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-857">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logica/filme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logica/historico.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logica/usuario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logica/adicional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

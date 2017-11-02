@@ -1,14 +1,17 @@
-from logica import filme
-from logica import usuario
+import filme
+import usuario
 
-filmes_assistidos = []
+historicos = []
 
 def registrar_filme_assistido(cod_filme,cpf):
-    f = filme.buscar_filme(cod_filme)
-    u = usuario.buscar_usuario(cpf)
+    cliente = usuario.buscar_usuario(cpf)
+    fil = filme.buscar_filme(cod_filme)
+    historico = [cliente,fil]
     
-    
+    historicos.append(historico)    
 
 def listar_filmes_assistidos(cpf):
-    pass
+    for h in historicos:
+        if (h[0][0] == cpf):
+            return h
 
